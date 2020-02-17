@@ -1,6 +1,6 @@
 const puppeteer = require("puppeteer");
 
-// add whichever sites you'd like to save here with the prefix www. in order for the split to work correctly. You'll also need to create subdirectories within the newspapers directory with the name of the site, ex: https://nytimes.com -> nytimes.com, https://www.washingtonpost.com -> washingtonpost.com
+// add whichever sites you'd like to save here with the prefix www. in order for the split to work correctly.
 const urls = ["https://www.nytimes.com", "https://www.vox.com", "https://www.arstechnica.com", "https://www.washingtonpost.com"];
 
 const todaysDate = new Date().toLocaleDateString().replace(/\//g, "-");

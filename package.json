@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "delete": "node delete.js",
-    "setup": "node setup.js"
+    "delete": "node scripts/delete.js",
+    "setup": "node scripts/setup.js"
   },
   "author": "",
   "license": "ISC",

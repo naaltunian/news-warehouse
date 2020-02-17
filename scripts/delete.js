@@ -1,11 +1,11 @@
 const fs = require('fs');
 const path = require('path');
-const { urls } = require("./index");
+const { urls } = require("../index");
 
 function deletePDFs() {
     for(let url of urls) {
         let site = url.split("//www.")[1];
-        let directory = `${__dirname}/newspapers/${site}/`
+        let directory = `${__dirname}/../newspapers/${site}/`
         fs.readdir(directory, (err, files) => {
             if (err) throw err;
             for (let file of files) {

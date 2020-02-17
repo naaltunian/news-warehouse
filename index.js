@@ -29,3 +29,4 @@ async function savePDF(browser, url, path) {
 }
 
 run();
+module.exports.urls = urls;
